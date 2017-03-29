@@ -13,7 +13,16 @@
     "type": "git",
     "url": "git://github.com/behance/be-svg-converter.git"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "commander": "^2.9.0",
+    "eslint": "^3.16.1",
+    "eslint-plugin-behance": "^1.1.0",
+    "eslint-preset-behance": "^6.0.0",
+    "glob": "^7.1.1",
+    "node-watch": "^0.5.2",
+    "rimraf": "^2.6.1",
+    "svgexport": "^0.3.2"
+  },
   "dependencies": {},
   "engines": {
     "node": ">=6.0.0"
