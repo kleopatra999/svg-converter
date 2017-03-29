@@ -1,0 +1,21 @@
+{
+  "name": "be-svg-converter",
+  "version": "1.0.3",
+  "description": "Behance SVG Converter",
+  "bin": "lib/index.js",
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint src/**/*.js"
+  },
+  "author": "erikson@adobe.com",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/behance/be-svg-converter.git"
+  },
+  "devDependencies": {},
+  "dependencies": {},
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}
