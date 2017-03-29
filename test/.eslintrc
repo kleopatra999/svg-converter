@@ -1,0 +1,11 @@
+{
+  extends: "../.eslintrc",
+  env: {
+    node: true,
+    jasmine: true
+  },
+  globals: {
+    affix: true,
+    setFixtures: true
+  }
+}
