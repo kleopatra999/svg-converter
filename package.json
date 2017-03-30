@@ -1,19 +1,30 @@
 {
-  "name": "be-svg-converter",
-  "version": "1.0.3",
+  "name": "svg-converter",
+  "version": "1.0.0",
   "description": "Behance SVG Converter",
   "bin": "lib/index.js",
   "scripts": {
-    "test": "npm run lint",
-    "lint": "eslint src/**/*.js"
+    "test": "npm run lint && env JASMINE_CONFIG_PATH=test/jasmine.json jasmine",
+    "lint": "eslint src/**/*.js test/**/*.js"
   },
   "author": "erikson@adobe.com",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/behance/be-svg-converter.git"
+    "url": "git://github.com/behance/svg-converter.git"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "commander": "^2.9.0",
+    "eslint": "^3.16.1",
+    "eslint-plugin-behance": "^1.1.0",
+    "eslint-preset-behance": "^6.0.0",
+    "glob": "^7.1.1",
+    "jasmine": "^2.5.3",
+    "jasmine-node": "^1.14.5",
+    "node-watch": "^0.5.2",
+    "rimraf": "^2.6.1",
+    "svgexport": "^0.3.2"
+  },
   "dependencies": {},
   "engines": {
     "node": ">=6.0.0"
