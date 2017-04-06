@@ -1,5 +1,5 @@
 {
-  "name": "svg-converter",
+  "name": "@behance/svg-converter",
   "version": "1.0.0",
   "description": "Behance SVG Converter",
   "bin": "lib/index.js",
